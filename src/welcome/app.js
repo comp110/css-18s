@@ -1,5 +1,1 @@
-let main = async () => {
-    print("Welcome to UNC!");
-};
-
-main();
+print("Welcome to UNC!");
