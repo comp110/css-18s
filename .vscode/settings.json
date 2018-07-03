@@ -17,6 +17,7 @@
         "tslint.json": true
     },
     "editor.minimap.enabled": false,
+    "typescript.autoImportSuggestions.enabled": false,
     "cSpell.words": [
         "introcs"
     ]
