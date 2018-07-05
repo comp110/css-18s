@@ -1,0 +1,176 @@
+/**
+ * You can ignore the contents of this file.
+ */ 
+
+html { 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.print, .ask, .image, .error {
+    margin: 0 5%;
+    padding: 16px 0;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.listTable, .objectTable {
+    border-collapse: collapse;
+}
+
+.listTable tr.first td {
+    font-weight: bold;
+}
+
+.listTable th, .objectTable td.objectProperty {
+    border: 1px solid whitesmoke;
+    background: #eee;
+    padding: 8px;
+}
+
+.listTable td, .objectTable td {
+    border: 1px solid whitesmoke;
+    padding: 4px;
+    font-size: 16px;
+    margin: 0;
+}
+
+.listTable td.number {
+    text-align: right;
+    font-family: "Consolas", "Monaco", monospace;
+}
+
+.listTable td.boolean {
+    text-align: center;
+    font-family: "Consolas", "Monaco", monospace;
+}
+
+.listTable td.string {
+    text-align: left;
+}
+
+.listTable td.null {
+    text-align: center;
+    font-family: "Consolas", "Monaco", monospace;
+    background: #eee;
+    color: #333;
+}
+
+/** ERROR */
+.error .message {
+    font-size: 20px;
+    color: #ff0033;
+    font-weight: bold;
+}
+
+.error .help {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+/** IMAGE */
+.image img {
+    max-width: 100%;
+    max-height: 360px;
+}
+
+/** PRINT */
+
+.print .value {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.print .type {
+    font-size: 10px;
+}
+
+/** ASK */
+.ask input {
+    -webkit-appearance: none;
+}
+
+.ask .prompt {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.ask .type {
+    font-size: 10px;
+}
+
+.ask .value {
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    width: calc(100% - 80px);
+    margin-top: 8px;
+}
+
+.ask.submitted {
+    color: #999;
+}
+
+.ask.submitted .value {
+    background: white;
+    border-bottom: 1px solid #999;
+}
+
+.ask.submitted .submit {
+    background: #999;
+}
+
+.ask.valid .value {
+    border-bottom: 1px solid #99badd;
+}
+
+.ask .value:focus {
+    outline-width: 0;
+}
+
+.ask .submit {
+    border-radius: 4px;
+    background: #999;
+    border: 1px solid #999;
+    font-size: 24px;
+    color: white;
+    padding: 8px;
+    float: right;
+}
+
+.ask.valid .submit {
+    background: #99badd;
+}
+
+@media only screen 
+and (max-device-width : 420px) {
+    .type {
+        display: none;
+    }
+
+    .print, .ask, .image, .error {
+        margin: 0 3%;
+        padding: 12px 0;
+    }
+
+    .print .value, .ask .prompt {
+        font-weight: normal;
+        font-size: 18px;
+    }
+
+    .ask .value {
+        font-size: 20px;
+    }
+
+    .ask .submit {
+        font-size: 18px;
+    }
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ3ZWxjb21lLWRlbW8uY3NzIiwic291cmNlUm9vdCI6IiJ9*/
