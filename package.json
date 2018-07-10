@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "introcs": "^0.8.0"
+    "introcs": "^0.8.1"
   },
   "devDependencies": {
     "@types/chai": "^4.1.1",
